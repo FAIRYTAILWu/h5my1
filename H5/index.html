@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/zepto.js"></script>
+
+
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <script src="./js/flexible.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    
+    <link rel="stylesheet" href="./css/index.css">
+
+    <script src="./js/zepto.js"></script>
+    <audio id="audio" src="./img/C400002CEGy10mjQuV.m4a" autoplay loop ></audio>
+
+
+
+
+    <style>
+        html,
+        body {
+            position: relative;
+        }
+
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+              
+        }
+
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            font-size: 18px;
+
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="QR_code" id="QR_code"></div>
+ 
+    <div class="music_pic"></div>
+    <main class="resume">
+        <!-- Swiper -->
+        <div class="swiper-container">
+              
+        
+            <div class="swiper-wrapper" >
+                <div class="swiper-slide one" >
+                        <div class="QR_code_bg" id="QR_code_bg" ></div>
+                    <section class="front_page clearfix">
+                         
+                        <div class="bg clearfix">
+                               
+                        </div>
+
+                        <div class="head_portrait"></div>
+                        <div class="content">
+                            <ul class="content_box">
+                                <li class="curriculum"></li>
+                                <li class="curriculum_A"></li>
+                                <li class="curriculum_B">
+                                    <div>此处输入自己的姓名</div>
+                                    <div>ZI JI DE XING MING</div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+                <div class="swiper-slide">
+                    <!--第二屏-->
+                    <section class="second_page clearfix">
+                          
+                        <div class="second_box">
+                            <div class="second_left">
+                                <ul class="second_leftA">
+                                    <li class="first_bg"></li>
+                                    <li class="second"></li>
+                                    <li class="thirdly"></li>
+                                    <li class="fourthly"></li>
+                                    <li class="circleA"></li>
+                                    <li class="circleB"></li>
+                                </ul>
+                            </div>
+                            <div class="second_right">
+                                <div class="second_rightT">
+                                    <span class="second_rightTS">个人信息</span>
+                                    <div class="character">3年UI设计工作经验，从事网站的建设与分析， 从学习到工作一直做我喜欢的设计，有美丽的幻想，有美好的憧憬。</div>
+                                </div>
+
+                                <div class="second_rightB">
+                                    <ul class="second_rightC">
+                                        <li class="education">教育经历</li>
+                                        <li class="educationB">2010-2013
+                                            <em>北京某高中</em>
+                                        </li>
+                                        <li class="educationC">在某某高中担任团支部书记，并多次获得奖学金，2009年参加站酷杯UI设计大赛获得二等奖。</li>
+                                        <li class="educationD">2013-2017 <b>北京某大学</b></li>
+
+                                        <li class="educationE">在某某大学担任团支部书记，并多次获得奖学金，2017年参加站酷杯UI设计大赛获得二等奖。</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+                <div class="swiper-slide three" >
+                    <!--第三屏-->
+                    <section class="third_screen">
+                        <div class="third_screenT">
+                            <div class="third_screenTL">
+                                <ul class="third_screenTLU">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+
+                            <div class="third_screenTR">
+                                <ul class="third_screenTRU">
+                                    <li>工作经历</li>
+                                    <li>
+                                        <b>2016-2017年</b>
+                                        <em>设计部主管</em>
+                                    </li>
+                                    <li>
+                                        在某公司担任设计部主管，带领5人团队完成万达全案，2016年在腾讯设计部工作至今，主要负责UI交互设计。负责微信开发及用户体验。
+                                    </li>
+                                    <li>个人技能</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="third_screenB">
+                            <ul class="third_screenBU">
+                                <li><p>JS</p></li>
+                                <li><p>CSS</p></li>
+                                <li><p>Vue</p></li>
+                                <li><p>React</p></li>
+                                <li><p>JS</p></li>
+                                <li><p>JS</p></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+               
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </main>
+
+    <script src="./js/swiper.min.js"></script>
+
+
+    <script src="./js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
